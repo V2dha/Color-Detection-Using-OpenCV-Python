@@ -26,7 +26,7 @@ upper = hsvred[0][0][0] + 10, 255, 255
 print(upper)
 print(lower)
 
-image = cv2.imread(r'C:\Users\vividha\Desktop\Color Detection\Image.jpg') #load your image
+image = cv2.imread(r'Image.jpg') #load your image
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) #convert the image into hsv
 
 lg = np.array(lowerLimit) #range of green color
